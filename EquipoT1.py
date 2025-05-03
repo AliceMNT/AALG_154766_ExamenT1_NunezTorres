@@ -33,7 +33,7 @@ def PuntosExtras():
 
 def JugarPartido():
     global equipo1, equipo2
-    while equipo1._setGanados < 3 and equipo2._setGanados < 3:
+    while equipo1._setGanados < 2 and equipo2._setGanados < 2: #  números mayor a 3 no para 
         puntos1 = Puntos()
         puntos2 = Puntos()
 
